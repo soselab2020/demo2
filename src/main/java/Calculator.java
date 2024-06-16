@@ -1,7 +1,5 @@
 public class Calculator {
 
-    private int status = 0;
-    
     public int add(int a, int b) {
         return a + b;
     }
@@ -15,6 +13,6 @@ public class Calculator {
     }
 
     public double divide(int a, int b) {
-        return (double)a / b;
+        return 0.0;
     }
 }
